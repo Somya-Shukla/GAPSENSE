@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --deep-blue: #0a192f;
+  --midnight-black: #020c1b;
+  --crimson-accent: #ff6b6b;
+  --dark-blue: #112240;
+  --light-blue: #64ffda;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, var(--midnight-black) 0%, var(--deep-blue) 100%);
+  color: #e6f1ff;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Glassmorphic card styles */
+.glass-card {
+  background: rgba(17, 34, 64, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 107, 107, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(255, 107, 107, 0.2);
+}
+
+/* Neon glow effects */
+.neon-glow {
+  text-shadow: 0 0 10px rgba(255, 107, 107, 0.5),
+               0 0 20px rgba(255, 107, 107, 0.3),
+               0 0 30px rgba(255, 107, 107, 0.2);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--midnight-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--crimson-accent);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5252;
+}
+
+/* Select dropdown styling */
+select {
+  background-color: var(--dark-blue) !important;
+  color: #e6f1ff !important;
+  color-scheme: dark;
+}
+
+select option {
+  background-color: var(--dark-blue) !important;
+  color: #e6f1ff !important;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Severity colors */
+.severity-low {
+  background-color: rgba(100, 255, 218, 0.2);
+  color: #64ffda;
+  border-color: rgba(100, 255, 218, 0.3);
+}
+
+.severity-medium {
+  background-color: rgba(255, 184, 0, 0.2);
+  color: #ffb800;
+  border-color: rgba(255, 184, 0, 0.3);
+}
+
+.severity-high {
+  background-color: rgba(255, 107, 107, 0.2);
+  color: #ff6b6b;
+  border-color: rgba(255, 107, 107, 0.3);
+}
+
+/* Category colors */
+.category-technical {
+  border-left: 4px solid #64ffda;
+}
+
+.category-academic {
+  border-left: 4px solid #ffb800;
+}
+
+.category-career {
+  border-left: 4px solid #ff6b6b;
+}
+
+.category-mental-health {
+  border-left: 4px solid #c792ea;
+}
+
+.category-other {
+  border-left: 4px solid #82aaff;
+}
+
+/* Heatmap grid */
+.grid-cols-25 {
+  grid-template-columns: 60px repeat(24, minmax(0, 1fr));
+}
+

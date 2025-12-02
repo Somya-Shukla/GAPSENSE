@@ -1,0 +1,17 @@
+[
+  {
+    "id": "user1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "password": "password123",
+    "role": "student"
+  },
+  {
+    "id": "admin1",
+    "name": "Admin User",
+    "email": "admin@gapsense.com",
+    "password": "admin123",
+    "role": "admin"
+  }
+]
+

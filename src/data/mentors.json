@@ -1,0 +1,147 @@
+[
+  {
+    "id": "mentor1",
+    "name": "Sarah Chen",
+    "email": "sarah.chen@example.com",
+    "expertise": ["technical", "career"],
+    "specializations": ["React", "JavaScript", "Frontend Development", "Career Guidance"],
+    "rating": 4.9,
+    "sessionsCompleted": 127,
+    "bio": "Senior Software Engineer with 8 years of experience. Passionate about helping students navigate their tech careers.",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "timeSlots": ["10:00-11:00", "14:00-15:00", "16:00-17:00"]
+  },
+  {
+    "id": "mentor2",
+    "name": "Dr. Michael Rodriguez",
+    "email": "m.rodriguez@example.com",
+    "expertise": ["academic", "mental health"],
+    "specializations": ["Study Strategies", "Time Management", "Stress Management", "Academic Writing"],
+    "rating": 4.8,
+    "sessionsCompleted": 203,
+    "bio": "PhD in Psychology with a focus on student mental health. 15 years of experience in academic counseling.",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "timeSlots": ["09:00-10:00", "13:00-14:00", "15:00-16:00"]
+  },
+  {
+    "id": "mentor3",
+    "name": "James Park",
+    "email": "james.park@example.com",
+    "expertise": ["technical"],
+    "specializations": ["Python", "Data Science", "Machine Learning", "Backend Development"],
+    "rating": 4.7,
+    "sessionsCompleted": 89,
+    "bio": "Data Scientist at a leading tech company. Expert in Python and ML frameworks.",
+    "availability": ["Monday", "Tuesday", "Thursday"],
+    "timeSlots": ["11:00-12:00", "15:00-16:00", "17:00-18:00"]
+  },
+  {
+    "id": "mentor4",
+    "name": "Emily Watson",
+    "email": "emily.w@example.com",
+    "expertise": ["career", "mental health"],
+    "specializations": ["Resume Building", "Interview Prep", "Networking", "Confidence Building"],
+    "rating": 4.9,
+    "sessionsCompleted": 156,
+    "bio": "Career coach and former recruiter. Helped 500+ students land their dream jobs.",
+    "availability": ["Wednesday", "Friday", "Sunday"],
+    "timeSlots": ["10:00-11:00", "14:00-15:00", "16:00-17:00"]
+  },
+  {
+    "id": "mentor5",
+    "name": "David Kim",
+    "email": "david.kim@example.com",
+    "expertise": ["technical"],
+    "specializations": ["Full Stack Development", "Node.js", "Databases", "System Design"],
+    "rating": 4.8,
+    "sessionsCompleted": 142,
+    "bio": "Full-stack developer with expertise in modern web technologies. Love teaching and mentoring.",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "timeSlots": ["09:00-10:00", "13:00-14:00", "17:00-18:00"]
+  },
+  {
+    "id": "mentor6",
+    "name": "Dr. Lisa Thompson",
+    "email": "lisa.t@example.com",
+    "expertise": ["mental health", "academic"],
+    "specializations": ["Anxiety Management", "Test Preparation", "Study Techniques", "Work-Life Balance"],
+    "rating": 4.9,
+    "sessionsCompleted": 234,
+    "bio": "Licensed therapist specializing in student mental health. 12 years of experience.",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "timeSlots": ["10:00-11:00", "14:00-15:00", "16:00-17:00"]
+  },
+  {
+    "id": "mentor7",
+    "name": "Alex Martinez",
+    "email": "alex.m@example.com",
+    "expertise": ["technical", "career"],
+    "specializations": ["DevOps", "Cloud Computing", "AWS", "Career Transition"],
+    "rating": 4.6,
+    "sessionsCompleted": 98,
+    "bio": "DevOps engineer helping students break into cloud computing and infrastructure roles.",
+    "availability": ["Monday", "Thursday", "Friday"],
+    "timeSlots": ["11:00-12:00", "15:00-16:00", "17:00-18:00"]
+  },
+  {
+    "id": "mentor8",
+    "name": "Rachel Green",
+    "email": "rachel.g@example.com",
+    "expertise": ["academic"],
+    "specializations": ["Mathematics", "Statistics", "Research Methods", "Academic Writing"],
+    "rating": 4.7,
+    "sessionsCompleted": 178,
+    "bio": "Mathematics professor with a passion for making complex concepts accessible.",
+    "availability": ["Tuesday", "Wednesday", "Saturday"],
+    "timeSlots": ["09:00-10:00", "13:00-14:00", "15:00-16:00"]
+  },
+  {
+    "id": "mentor9",
+    "name": "Chris Anderson",
+    "email": "chris.a@example.com",
+    "expertise": ["career"],
+    "specializations": ["Product Management", "Startup Advice", "Leadership", "Business Strategy"],
+    "rating": 4.8,
+    "sessionsCompleted": 112,
+    "bio": "Product Manager at a unicorn startup. Expert in product strategy and career growth.",
+    "availability": ["Wednesday", "Friday", "Sunday"],
+    "timeSlots": ["10:00-11:00", "14:00-15:00", "16:00-17:00"]
+  },
+  {
+    "id": "mentor10",
+    "name": "Priya Sharma",
+    "email": "priya.s@example.com",
+    "expertise": ["technical", "academic"],
+    "specializations": ["Algorithms", "Data Structures", "Competitive Programming", "Computer Science Fundamentals"],
+    "rating": 4.9,
+    "sessionsCompleted": 201,
+    "bio": "Software engineer with a strong CS background. Helped many students ace technical interviews.",
+    "availability": ["Monday", "Tuesday", "Thursday"],
+    "timeSlots": ["11:00-12:00", "15:00-16:00", "17:00-18:00"]
+  },
+  {
+    "id": "mentor11",
+    "name": "Mark Johnson",
+    "email": "mark.j@example.com",
+    "expertise": ["mental health"],
+    "specializations": ["Imposter Syndrome", "Confidence Building", "Mindfulness", "Stress Relief"],
+    "rating": 4.8,
+    "sessionsCompleted": 165,
+    "bio": "Life coach specializing in helping students overcome self-doubt and build confidence.",
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "timeSlots": ["09:00-10:00", "13:00-14:00", "16:00-17:00"]
+  },
+  {
+    "id": "mentor12",
+    "name": "Jessica Lee",
+    "email": "jessica.l@example.com",
+    "expertise": ["career", "academic"],
+    "specializations": ["Internship Search", "Networking", "Academic Planning", "Graduate School"],
+    "rating": 4.7,
+    "sessionsCompleted": 134,
+    "bio": "Career advisor with expertise in helping students plan their academic and professional journey.",
+    "availability": ["Monday", "Wednesday", "Friday"],
+    "timeSlots": ["10:00-11:00", "14:00-15:00", "17:00-18:00"]
+  }
+]
+
