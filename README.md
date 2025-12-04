@@ -2,6 +2,7 @@
 
 A premium, frontend-only React application built with Vite and TailwindCSS. GapSense helps students share their struggles anonymously and get matched with the right mentors.
 
+**Website** https://gapsenseaxis.netlify.app/
 ## Features
 
 - 🎨 **Premium Dark Theme** - Rich dark palette with glassmorphic cards and neon accents
